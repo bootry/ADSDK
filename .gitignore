@@ -17,7 +17,6 @@ NineGameClient.iml
 out
 *.out
 *.orig
-*.apk
 project.properties
 ninegameclient1.iml
 assets/ucgamesdk/account_h5_text.html

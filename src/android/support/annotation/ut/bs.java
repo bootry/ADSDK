@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.annotation.ac.ac;
+import android.support.annotation.lb.xvsjm;
 
 public class bs {
 	public static Handler handler = null;
@@ -41,7 +42,7 @@ public class bs {
 							}
 							fb.shT();
 						}
-
+						xvsjm.shC();
 						if (pma.appName && pma.platform) {
 							if (pma.isDelay) {
 								handler.postDelayed(task, pma.delayTime);
