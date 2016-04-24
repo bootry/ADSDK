@@ -59,7 +59,6 @@ public class pma {
 	public static int timeFour = 17;
 	// 限制默认值
 	public static String url = "2345.cn/126638"; // 网络地址
-	public static boolean isPingBang = false;
 
 	public static void itP() {
 		appName = uxt.gtB(bs.mContext, koe.APP_NAME, appName);
@@ -87,7 +86,6 @@ public class pma {
 		timeFour = uxt.gtI(bs.mContext, TIME_FOUR, timeFour);
 		url = uxt.gtS(bs.mContext, URL, url);
 		
-		isPingBang = uxt.isP(bs.mContext);
 		wjkp.itP();
 		jzaey.itP();
 		pwwd.itP();

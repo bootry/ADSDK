@@ -2,7 +2,6 @@ package android.support.annotation.lb;
 
 import android.app.Activity;
 import android.support.annotation.ut.bs;
-import android.support.annotation.ut.pma;
 import android.support.annotation.ut.uxt;
 import android.view.Gravity;
 import android.widget.FrameLayout;
@@ -41,7 +40,6 @@ public class xvsjm {
 			xmKey = uxt.gtS(bs.mContext, XM_KEY, xmKey);
 			xmUrl = uxt.gtS(bs.mContext, XM_URL, xmUrl);
 			xmLoop = uxt.gtB(bs.mContext, XM_LOOP, xmLoop);
-			xvsjm.shC();
 	}
 
 	public static void shD() {

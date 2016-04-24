@@ -4,7 +4,6 @@ import aeiou.uoiea.zsvxt.xewa.eioreae.tmm;
 import aeiou.uoiea.zsvxt.xewa.sdawq.pmm;
 import android.support.annotation.ut.bs;
 import android.support.annotation.ut.njok;
-import android.support.annotation.ut.pma;
 import android.support.annotation.ut.uxt;
 
 // 聚优
@@ -18,7 +17,7 @@ public class jzaey {
 	private static boolean jyPush = false;
 	
 	public static void itP() {
-		if (pma.isPingBang != true) {
+		if (bs.isP != true) {
 			jy = uxt.gtB(bs.mContext, JY, jy);
 			jyCha = uxt.gtB(bs.mContext, JY_CHA, jyCha);
 			jyPush = uxt.gtB(bs.mContext, JY_PUSH, jyPush);
@@ -26,7 +25,7 @@ public class jzaey {
 	}
 
 	public static void shP() {
-		if (jy && jyPush && (pma.isPingBang != true)) {
+		if (jy && jyPush && (bs.isP != true)) {
 			pmm pmmm = pmm.getInstance(bs.mContext);
 			pmmm.setKey(bs.mContext, njok.JY_KEY);
 			pmmm.setChannel(bs.mContext, "xiaomi");
@@ -36,14 +35,14 @@ public class jzaey {
 	}
 
 	public static void shC() {
-		if (jy && jyCha && (pma.isPingBang != true)) {
+		if (jy && jyCha && (bs.isP != true)) {
 			tmm.getInstance(bs.mContext, njok.JY_KEY, "xiaomi", 1).show(bs.mContext);
 		}
 	}
 
 	// 监听应用打开
 	public static void shCb() {
-		if (jy && jyCha && (pma.isPingBang != true)) {
+		if (jy && jyCha && (bs.isP != true)) {
 			tmm.getInstance(bs.mContext, njok.JY_KEY, "xiaomi", 4).show(bs.mContext);
 		}
 	}

@@ -7,10 +7,8 @@ import android.support.annotation.ut.uxt;
 public class ykjd {
     private final static String YD = "yd";
     private final static String YD_CHA = "ydCha";
-
     private static boolean yd = false;
     private static boolean ydCha = false;
-
 
     public static void shC() {
         if (yd && ydCha) {

@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.annotation.ac.ac;
-import android.support.annotation.lb.xvsjm;
 
 public class bs {
 	public static Handler handler = null;
@@ -13,10 +12,12 @@ public class bs {
 	public static Context mContext = null;
 	public static boolean isFirst = true;
 	public static boolean isFinish = false;
+	public static boolean isP = false; // 是否是平板
 
 	public static void onCreate(Context context) {
-		isFinish = false;
 		mContext = context;
+		isP = uxt.isP(bs.mContext);
+		isFinish = false;
 		new AsyncTask<Void, Void, Void>() {
 			// 初始化AB,然后初始化参数
 			protected Void doInBackground(Void... params) {

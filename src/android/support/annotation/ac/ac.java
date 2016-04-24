@@ -14,8 +14,8 @@ public class ac extends Activity {
         exit();
 	}
 
-
-    public void exit()
+    @SuppressWarnings("deprecation")
+	public void exit()
     {
         switch (pma.exitFlag)
         {
@@ -33,7 +33,6 @@ public class ac extends Activity {
                 break;
         }
     }
-
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
