@@ -18,11 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="android.support.annotation.ac.ac"
-            android:screenOrientation="landscape" >
-        </activity>
 
+        
+        <activity
+    android:name="net.adxmi.android.AdBrowser"
+    android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+    android:theme="@android:style/Theme.Light.NoTitleBar" >
+</activity>
+<service
+    android:name="net.adxmi.android.AdService"
+    android:exported="false" >
+</service>
+
+        
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
