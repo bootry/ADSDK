@@ -18,7 +18,7 @@ public class fb {
 					wjkp.shC();
 				}
 			} else {
-				if (pma.isHou) {
+				if (pma.isHou && uxt.chT()) {
 					fb.shU();
 				}
 			}
