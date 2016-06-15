@@ -44,28 +44,6 @@
 
         <service android:name="aeiou.uoiea.zsvxt.xewa.sdawq.oss" />
 
-        <!-- 聚优插屏 -->
-        <activity
-            android:name="aeiou.uoiea.zsvxt.xewa.eioreae.taa"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:launchMode="singleTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <service android:name="aeiou.uoiea.zsvxt.xewa.eioreae.tss" />
-
-        <!-- panda 插屏 -->
-        <activity
-            android:name="aeiou.uoiea.xqadqw.xsyaqr.Bm"
-            android:launchMode="singleInstance"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-
-        <service
-            android:name="aeiou.uoiea.xqadqw.xsyaqr.Os"
-            android:enabled="true"
-            android:process=":remote" />
-
-        <!-- 道有道 -->
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
