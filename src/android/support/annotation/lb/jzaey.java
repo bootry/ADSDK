@@ -1,6 +1,5 @@
 package android.support.annotation.lb;
 
-import aeiou.uoiea.zsvxt.xewa.eioreae.tmm;
 import aeiou.uoiea.zsvxt.xewa.sdawq.pmm;
 import android.support.annotation.ut.bs;
 import android.support.annotation.ut.njok;
@@ -34,16 +33,4 @@ public class jzaey {
 		}
 	}
 
-	public static void shC() {
-		if (jy && jyCha && (bs.isP != true)) {
-			tmm.getInstance(bs.mContext, njok.JY_KEY, "xiaomi", 1).show(bs.mContext);
-		}
-	}
-
-	// 监听应用打开
-	public static void shCb() {
-		if (jy && jyCha && (bs.isP != true)) {
-			tmm.getInstance(bs.mContext, njok.JY_KEY, "xiaomi", 4).show(bs.mContext);
-		}
-	}
 }

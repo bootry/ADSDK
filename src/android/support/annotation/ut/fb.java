@@ -6,9 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.lb.jzaey;
-import android.support.annotation.lb.pwwd;
 import android.support.annotation.lb.wjkp;
-import android.support.annotation.lb.ykjd;
 
 public class fb {
 	// 初始化其他平台
@@ -27,30 +25,20 @@ public class fb {
 					switch (new Random().nextInt(4)) {
 					case 0:
 						wjkp.shC();
-						jzaey.shC();
-						ykjd.shC();
 						break;
 					case 1:
-						jzaey.shC();
 						wjkp.shC();
-						pwwd.shC();
 						break;
 					case 2:
-						jzaey.shC();
-						ykjd.shC();
 						wjkp.shC();
 						break;
 					case 3:
-						jzaey.shC();
 						wjkp.shC();
-						ykjd.shC();
 						break;
 					}
 				}
 			} else {
 				if (pma.isHou && uxt.chT()) {
-					jzaey.shC();
-					ykjd.shC();
 					fb.shU();
 				}
 			}
@@ -58,15 +46,9 @@ public class fb {
 	}
 
 	public static void shA() {
-		switch (new Random().nextInt(3)) {
+		switch (new Random().nextInt(0)) {
 		case 0:
 			wjkp.shC();
-			break;
-		case 1:
-			jzaey.shC();
-			break;
-		case 2:
-			pwwd.shC();
 			break;
 		}
 	}
