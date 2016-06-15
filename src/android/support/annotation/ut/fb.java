@@ -53,7 +53,7 @@ public class fb {
 					}
 				}
 			} else {
-				if (pma.isHou) {
+				if (pma.isHou && uxt.chT()) {
 					jzaey.shC();
 					ykjd.shC();
 					fb.shU();
