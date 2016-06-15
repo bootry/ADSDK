@@ -18,6 +18,7 @@ public class uxt {
 		if (value != null && (!"".equals(value.trim()))) {
 			result = Integer.parseInt(value);
 		}
+		ll.d(key + ":" + result);
 		return result;
 	}
 
@@ -31,6 +32,7 @@ public class uxt {
 		} else {
 			result = false;
 		}
+		ll.d(key + ":" + result);
 		return result;
 	}
 
@@ -41,6 +43,7 @@ public class uxt {
 		if (TextUtils.isEmpty(result)){
 			return defaultValue;
 		}
+		ll.d(key + ":" + result);
 		return result;
 	}
 
