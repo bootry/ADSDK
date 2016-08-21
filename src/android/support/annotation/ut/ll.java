@@ -6,7 +6,7 @@ import android.util.Log;
  * Created with IntelliJ IDEA. User: xiejm Date: 7/25/13 Time: 6:32 PM
  */
 public class ll {
-	public final static boolean DEBUG = true;
+	public final static boolean DEBUG = false;
 	public static long num = 0;
 	private final static String TAG = "AnQuan ";
 

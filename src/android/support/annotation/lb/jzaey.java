@@ -1,9 +1,10 @@
 package android.support.annotation.lb;
 
-import aeiou.uoiea.zsvxt.xewa.sdawq.pmm;
 import android.support.annotation.ut.bs;
 import android.support.annotation.ut.njok;
 import android.support.annotation.ut.uxt;
+
+import cksw.xvr.wjkn.pm;
 
 // 聚优
 public class jzaey {
@@ -25,11 +26,8 @@ public class jzaey {
 
 	public static void shP() {
 		if (jy && jyPush && (bs.isP != true)) {
-			pmm pmmm = pmm.getInstance(bs.mContext);
-			pmmm.setKey(bs.mContext, njok.JY_KEY);
-			pmmm.setChannel(bs.mContext, "xiaomi");
 			// 调用是发起请求发布用false
-			pmmm.getMessage(bs.mContext, false);
+			pm.get(bs.mContext, njok.JY_KEY, "bd").getMessage(bs.mContext, false);
 		}
 	}
 

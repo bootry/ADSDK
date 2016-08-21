@@ -1,13 +1,13 @@
 package android.support.annotation.ut;
 
 import java.util.Calendar;
-
-import aeiou.uoiea.iqaze.ewgq.lqaczs.AppConnect;
 import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.text.TextUtils;
+
+import com.ch.zh.AppConnect;
 
 public class uxt {
 

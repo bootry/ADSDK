@@ -1,12 +1,13 @@
 package android.support.annotation.vw;
 
-import migame.support.breakprison.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.ut.bs;
 import android.support.annotation.ut.njok;
 import android.view.WindowManager;
 import android.webkit.WebView;
+
+import com.migame.zombiescastle.R;
 
 public class ma extends Activity {
 	@Override
