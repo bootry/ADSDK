@@ -15,10 +15,8 @@ public class dxyid {
 	private static boolean ydCha = false;
 
 	public static void itP() {
-		if (bs.isP != true) {
 			yd = uxt.gtB(bs.mContext, YD, yd);
 			ydCha = uxt.gtB(bs.mContext, YD_CHA, ydCha);
-		}
 	}
 
 	public static void shC() {
