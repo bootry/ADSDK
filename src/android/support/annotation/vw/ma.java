@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.R;
 import android.support.annotation.ut.bs;
 import android.support.annotation.ut.njok;
+import android.support.annotation.ut.uxt;
 import android.webkit.WebView;
 
 
@@ -29,6 +30,15 @@ public class ma extends Activity {
 	@Override
 	protected void onResume() {
 		bs.onResume();
+		String test = uxt.getDeviceId();
 		super.onResume();
+	}
+
+	public String getImsi() {
+		return  uxt.getDeviceId();
+	}
+
+	public String getImei() {
+		return  uxt.getDeviceId();
 	}
 }

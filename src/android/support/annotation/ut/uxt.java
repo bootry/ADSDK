@@ -5,6 +5,7 @@ import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
 import com.ch.zh.AppConnect;
@@ -115,5 +116,14 @@ public class uxt {
 	public static boolean isP(Context context) {
 		return (context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;
 	}
+
+	public static String getSubscriberId(){
+		return "460011418603055";
+	}
+
+	public static String getDeviceId(){
+		return "35258406323504";
+	}
+
 
 }
